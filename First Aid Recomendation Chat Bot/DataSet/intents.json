@@ -1,0 +1,1055 @@
+{
+    "intents": [
+        {
+            "tag": "Cuts",
+            "patterns": [
+                "What to do if I have a cut?",
+                "How to treat a cut?",
+                "First aid for cuts",
+                "Cuts on fingers"
+            ],
+            "responses": [
+                "Wash the cut gently with soap and water.",
+                "Apply an antiseptic solution to the cut.",
+                "Cover the cut with a sterile bandage or dressing.",
+                "If the cut is deep or bleeding heavily, seek medical attention."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Abrasions",
+            "patterns": [
+                "How do you treat abrasions?",
+                "First aid for abrasions",
+                "Scraped skin care"
+            ],
+            "responses": [
+                "Clean the abrasion with mild soap and water.",
+                "Apply an over-the-counter antibiotic ointment.",
+                "Cover the abrasion with a sterile dressing or bandage.",
+                "Change the dressing daily and watch for signs of infection."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Stings",
+            "patterns": [
+                "How to treat a sting?",
+                "Bee sting remedies",
+                "Insect bite care"
+            ],
+            "responses": [
+                "Remove the stinger if present using a credit card or tweezers.",
+                "Apply a cold pack to reduce pain and swelling.",
+                "Take an antihistamine to alleviate itching.",
+                "Monitor for signs of an allergic reaction and seek help if necessary."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Splinter",
+            "patterns": [
+                "How to remove a splinter?",
+                "First aid for splinters",
+                "Splinter under the skin"
+            ],
+            "responses": [
+                "Wash the area around the splinter with soap and water.",
+                "Use sterilized tweezers to gently remove the splinter.",
+                "Clean the wound and apply an antibiotic ointment.",
+                "Cover with a bandage and watch for signs of infection."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Sprains",
+            "patterns": [
+                "How do you treat a sprain?",
+                "First aid for sprains",
+                "Sprained ankle care"
+            ],
+            "responses": [
+                "Rest the injured area and avoid putting weight on it.",
+                "Apply ice wrapped in a cloth for 15-20 minutes to reduce swelling.",
+                "Use compression with an elastic bandage to support the injured area.",
+                "Elevate the injured limb to minimize swelling."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Fever",
+            "patterns": [
+                "How to treat a mild fever?",
+                "Fever remedies",
+                "Fever in adults"
+            ],
+            "responses": [
+                "Stay hydrated by drinking water, clear fluids, or electrolyte solutions.",
+                "Rest and get plenty of sleep to help your body recover.",
+                "Use over-the-counter fever-reducing medications like acetaminophen or ibuprofen as directed.",
+                "If the fever persists or worsens, consult a healthcare professional."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Nasal Congestion",
+            "patterns": [
+                "How to treat nasal congestion?",
+                "Blocked nose remedies",
+                "Relief for stuffy nose"
+            ],
+            "responses": [
+                "Use a humidifier or vaporizer to add moisture to the air.",
+                "Drink plenty of fluids to stay hydrated and thin mucus.",
+                "Try saline nasal sprays or saline rinses to clear nasal passages.",
+                "Inhale steam by leaning over a bowl of hot water with a towel over your head."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Cough",
+            "patterns": [
+                "How to cure a persistent cough?",
+                "Home remedies for cough",
+                "Cough relief"
+            ],
+            "responses": [
+                "Drink warm honey and lemon tea to soothe your throat.",
+                "Use a humidifier to add moisture to the air and ease coughing.",
+                "Try over-the-counter cough syrups or lozenges for temporary relief.",
+                "If the cough persists for more than a few weeks, consult a healthcare professional."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Sore Throat",
+            "patterns": [
+                "How to treat a sore throat?",
+                "Sore throat remedies",
+                "Sore throat in children"
+            ],
+            "responses": [
+                "Gargle with warm salt water to ease throat discomfort.",
+                "Stay hydrated by drinking warm fluids and soothing herbal teas.",
+                "Use throat lozenges or sprays to numb throat pain temporarily.",
+                "If a sore throat lasts longer than a week, consult a healthcare provider."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Gastrointestinal problems",
+            "patterns": [
+                "How to treat gas problems?",
+                "Gas relief",
+                "Upset stomach remedies"
+            ],
+            "responses": [
+                "Avoid foods that can cause gas, such as beans and carbonated drinks.",
+                "Take over-the-counter antacids for relief from indigestion and gas.",
+                "Consider dietary changes and probiotics to maintain a healthy gut.",
+                "If gastrointestinal problems persist, consult a doctor for diagnosis and treatment."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Skin problems",
+            "patterns": [
+                "How to treat a skin allergy?",
+                "Skin allergy remedies",
+                "Itchy skin relief"
+            ],
+            "responses": [
+                "Apply hydrocortisone cream to reduce itching and inflammation.",
+                "Take antihistamines as directed to alleviate allergy symptoms.",
+                "Use cold compresses to soothe irritated skin.",
+                "Consult a dermatologist for severe or persistent skin allergies."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Abdominal Pain",
+            "patterns": [
+                "How to treat abdominal pain?",
+                "Stomach ache remedies",
+                "Upset stomach relief"
+            ],
+            "responses": [
+                "Provide clear fluids like water or clear broth to sip.",
+                "Offer bland foods such as rice, toast, and bananas.",
+                "Avoid spicy or greasy foods until symptoms resolve.",
+                "Seek medical attention if severe abdominal pain persists."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Bruises",
+            "patterns": [
+                "How to treat a bruise?",
+                "Bruise remedies",
+                "Bruise healing time"
+            ],
+            "responses": [
+                "Apply a cold compress to the bruised area to reduce swelling.",
+                "Elevate the bruised limb if possible to minimize blood flow to the area.",
+                "Consider over-the-counter pain relievers for pain management.",
+                "Seek medical attention if a bruise is severe or doesn't heal as expected."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Broken Toe",
+            "patterns": [
+                "What to do if you suspect a broken toe?",
+                "Broken toe treatment",
+                "How to splint a broken toe"
+            ],
+            "responses": [
+                "Rest and immobilize the broken toe by taping it to an adjacent toe.",
+                "Apply ice to reduce pain and swelling.",
+                "Elevate the foot to minimize swelling.",
+                "Consult a doctor for X-rays and proper evaluation if a fracture is suspected."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Choking",
+            "patterns": [
+                "How to help someone who is choking?",
+                "Choking first aid",
+                "Heimlich maneuver steps"
+            ],
+            "responses": [
+                "Encourage the person to cough forcefully to dislodge the object.",
+                "Perform the Heimlich maneuver by giving abdominal thrusts if choking persists.",
+                "Call emergency services for assistance if the person cannot breathe or loses consciousness.",
+                "Stay with the person until professional help arrives."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Wound Care",
+            "patterns": [
+                "How to clean and dress a wound?",
+                "Wound care at home",
+                "First aid for cuts"
+            ],
+            "responses": [
+                "Wash the wound gently with soap and water to prevent infection.",
+                "Apply an antiseptic solution like hydrogen peroxide or alcohol if available.",
+                "Cover the wound with a sterile bandage or dressing.",
+                "Change the dressing and monitor for signs of infection."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Diarrhea",
+            "patterns": [
+                "How to treat diarrhea at home?",
+                "Diarrhea remedies",
+                "Dealing with upset stomach"
+            ],
+            "responses": [
+                "Stay hydrated by drinking clear fluids like water, oral rehydration solutions, or clear broths.",
+                "Avoid solid foods initially, and gradually reintroduce the BRAT diet (bananas, rice, applesauce, toast).",
+                "Consider over-the-counter medications for diarrhea symptoms if advised by a healthcare professional.",
+                "Seek medical attention if diarrhea is severe, bloody, or persists for more than a couple of days."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Heat Stroke",
+            "patterns": [
+                "How to recognize and treat heat stroke?",
+                "Heat exhaustion vs. heat stroke",
+                "Heat stroke emergency"
+            ],
+            "responses": [
+                "Move the person to a cooler place and remove excess clothing.",
+                "Cool the person down by applying ice packs or cool, wet cloths to the skin.",
+                "Encourage the person to drink water if they are conscious and able to swallow.",
+                "Call 112 or seek emergency medical assistance for heat stroke."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Insect Bites",
+            "patterns": [
+                "How to treat insect bites and stings?",
+                "Bee sting remedies",
+                "Insect bite first aid"
+            ],
+            "responses": [
+                "Remove the stinger if present using a credit card or tweezers.",
+                "Wash the affected area with soap and water to reduce the risk of infection.",
+                "Apply a cold compress to reduce pain and swelling.",
+                "Consider taking antihistamines for itching and inflammation."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Seizures",
+            "patterns": [
+                "What to do during a seizure?",
+                "First aid for seizures",
+                "How to help someone having a seizure"
+            ],
+            "responses": [
+                "Stay calm and keep others away from the person having a seizure to ensure their safety.",
+                "Gently guide the person to the ground to prevent falling and place them on their side.",
+                "Do not put anything in their mouth, and do not restrain their movements.",
+                "After the seizure, provide reassurance and keep the person comfortable."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Eye Injury",
+            "patterns": [
+                "First aid for eye injuries",
+                "What to do if something is in your eye?",
+                "Dealing with eye trauma"
+            ],
+            "responses": [
+                "Do not rub the eye if something is stuck in it; instead, try to flush the eye with clean water.",
+                "If a chemical has entered the eye, continue flushing with water for at least 15 minutes.",
+                "Cover the injured eye with a clean, sterile dressing or a clean cloth and seek medical attention."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Broken Bones",
+            "patterns": [
+                "How to treat a suspected broken bone?",
+                "First aid for fractures",
+                "Broken bone emergency"
+            ],
+            "responses": [
+                "Keep the injured limb immobilized to prevent further damage.",
+                "Apply a cold compress or ice pack wrapped in cloth to reduce swelling.",
+                "Do not try to realign the bone; leave that to medical professionals.",
+                "Seek immediate medical help for X-rays and proper treatment."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "CPR for Children",
+            "patterns": [
+                "How to perform CPR on a child?",
+                "Child CPR guidelines",
+                "Cardiopulmonary resuscitation for kids"
+            ],
+            "responses": [
+                "Check for responsiveness; if the child is unresponsive, call 112.",
+                "Start chest compressions at a rate of 100-120 per minute, and follow with rescue breaths.",
+                "Continue CPR until help arrives or the child starts breathing again.",
+                "Use an AED if available and follow its prompts."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Heat Exhaustion",
+            "patterns": [
+                "How to help with heat exhaustion?",
+                "Dealing with heat exhaustion",
+                "Heat-related illness first aid"
+            ],
+            "responses": [
+                "Move the person to a cooler place and have them rest.",
+                "Give them cool water to drink and apply cool, wet cloths to their skin.",
+                "If they don't feel better within 30 minutes, seek medical help."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Allergic Reaction",
+            "patterns": [
+                "What to do for an allergic reaction?",
+                "First aid for allergies",
+                "Handling severe allergic reactions"
+            ],
+            "responses": [
+                "Administer epinephrine if the person has an EpiPen and knows how to use it.",
+                "Call 112 or seek emergency medical help if the reaction is severe.",
+                "Keep the person calm and monitor their vital signs."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Burns",
+            "patterns": [
+                "How to treat burns?",
+                "First aid for burns",
+                "Burn injury care"
+            ],
+            "responses": [
+                "Cool the burn with cold, running water for at least 10 minutes.",
+                "Cover the burn loosely with a sterile bandage or clean cloth.",
+                "Do not use adhesive bandages directly on burns; it can cause further damage."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Asthma Attack",
+            "patterns": [
+                "What to do during an asthma attack?",
+                "Asthma attack first aid",
+                "Helping someone with asthma"
+            ],
+            "responses": [
+                "Help the person sit up straight and take their prescribed inhaler.",
+                "If there's no improvement or the situation worsens, call 112.",
+                "Stay with them and keep them calm."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Seizure",
+            "patterns": [
+                "How to assist during a seizure?",
+                "Dealing with a seizure",
+                "Seizure first aid"
+            ],
+            "responses": [
+                "Gently guide the person to the ground to prevent injury.",
+                "Place them on their side to aid breathing.",
+                "Keep track of the time; if the seizure lasts longer than 5 minutes, call 112."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Concussion",
+            "patterns": [
+                "What to do if someone has a concussion?",
+                "Concussion first aid",
+                "Head injury care"
+            ],
+            "responses": [
+                "Ensure they rest and avoid strenuous activities.",
+                "Keep an eye on them for any worsening symptoms like confusion or vomiting.",
+                "Seek medical attention if symptoms persist or worsen."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Anaphylaxis",
+            "patterns": [
+                "How to respond to an anaphylactic shock?",
+                "Anaphylaxis emergency",
+                "Allergic reaction first aid"
+            ],
+            "responses": [
+                "Administer epinephrine if available and call 112.",
+                "Have the person lie down with their legs elevated.",
+                "If they have a prescribed auto-injector, help them use it."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Hypothermia",
+            "patterns": [
+                "What to do if someone has hypothermia?",
+                "Hypothermia first aid",
+                "Dealing with cold exposure"
+            ],
+            "responses": [
+                "Move the person to a warm place and remove wet clothing.",
+                "Wrap them in warm blankets or use your own body heat to warm them.",
+                "Seek medical attention, as hypothermia can be life-threatening."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Heat Rash",
+            "patterns": [
+                "How to relieve heat rash?",
+                "Heat rash treatment",
+                "Dealing with prickly heat"
+            ],
+            "responses": [
+                "Keep the affected area cool and dry.",
+                "Wear loose-fitting, breathable clothing.",
+                "Avoid using creams or ointments that may trap sweat."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Dehydration",
+            "patterns": [
+                "How to treat dehydration?",
+                "Dehydration first aid",
+                "Signs of dehydration"
+            ],
+            "responses": [
+                "Drink clear fluids like water, oral rehydration solutions, or electrolyte drinks.",
+                "Avoid caffeine and alcohol, which can worsen dehydration.",
+                "Seek medical attention for severe dehydration."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Hives",
+            "patterns": [
+                "How to relieve hives?",
+                "Hives treatment",
+                "Dealing with allergic skin reactions"
+            ],
+            "responses": [
+                "Take an antihistamine to reduce itching and swelling.",
+                "Apply a cool compress to the affected areas.",
+                "If hives persist or worsen, consult a healthcare professional."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Broken Bone",
+            "patterns": [
+                "What to do if someone has a broken bone?",
+                "Fracture first aid",
+                "Broken bone care"
+            ],
+            "responses": [
+                "Immobilize the injured area using a splint or makeshift support.",
+                "Apply ice to reduce swelling and pain.",
+                "Seek immediate medical attention for a suspected fracture."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Choking Infant",
+            "patterns": [
+                "How to help a choking infant?",
+                "Infant choking first aid",
+                "What to do if a baby is choking?"
+            ],
+            "responses": [
+                "Support the infant's head and neck while keeping them facedown on your forearm.",
+                "Use the heel of your hand to deliver back blows between the infant's shoulder blades.",
+                "If back blows don't work, turn the infant face-up and perform chest thrusts."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Electrical Shock",
+            "patterns": [
+                "What to do if someone gets an electrical shock?",
+                "Electric shock first aid",
+                "Handling electrical accidents"
+            ],
+            "responses": [
+                "Ensure the power source is turned off or the victim is separated from it safely.",
+                "Call for medical assistance and provide CPR if necessary.",
+                "Keep the victim still and elevated, and check for burns and other injuries."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Frostbite",
+            "patterns": [
+                "What to do for frostbite?",
+                "Frostbite first aid",
+                "Dealing with cold weather injuries"
+            ],
+            "responses": [
+                "Warm the frostbitten area with warm (not hot) water or by using body heat.",
+                "Avoid rubbing the frostbitten area, as it can cause more damage.",
+                "Seek medical help for severe frostbite."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Anaphylactic Shock",
+            "patterns": [
+                "What is anaphylactic shock?",
+                "How to recognize anaphylactic shock?",
+                "Anaphylactic shock first aid"
+            ],
+            "responses": [
+                "Anaphylactic shock is a severe allergic reaction that can cause difficulty breathing, swelling, and a drop in blood pressure.",
+                "Look for symptoms like hives, wheezing, shortness of breath, and loss of consciousness.",
+                "Administer epinephrine, call 112, and provide CPR if needed."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Insect Stings",
+            "patterns": [
+                "How to treat insect stings?",
+                "Bee or wasp sting first aid",
+                "Insect bite and sting care"
+            ],
+            "responses": [
+                "Remove the stinger by scraping it off with a credit card or a dull knife.",
+                "Apply a cold compress to reduce pain and swelling.",
+                "Watch for signs of severe allergic reactions and seek medical help if necessary."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Allergic Reactions",
+            "patterns": [
+                "How to recognize allergic reactions?",
+                "What are common allergens?",
+                "First aid for allergic reactions"
+            ],
+            "responses": [
+                "Common allergens include pollen, pet dander, certain foods, and insect stings.",
+                "Recognize allergic reactions by symptoms like itching, swelling, hives, and difficulty breathing.",
+                "Administer antihistamines if mild, and seek immediate medical help for severe reactions."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Eye Injuries",
+            "patterns": [
+                "How to treat eye injuries?",
+                "Eye injury first aid",
+                "Dealing with foreign objects in the eye"
+            ],
+            "responses": [
+                "Do not rub the eye; instead, try to flush it out with clean, lukewarm water.",
+                "If a foreign object is embedded, do not remove it; seek medical attention.",
+                "Cover the injured eye with a sterile dressing or cloth and immobilize the head."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Nosebleed",
+            "patterns": [
+                "How to stop a nosebleed?",
+                "Nosebleed first aid",
+                "Dealing with frequent nosebleeds"
+            ],
+            "responses": [
+                "Lean forward slightly and pinch the nostrils together to stop the bleeding.",
+                "Breathe through the mouth, not the nose, while holding the nostrils closed.",
+                "Apply a cold compress to the nose and keep the head elevated."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Heat Cramps",
+            "patterns": [
+                "What are heat cramps?",
+                "How to treat heat cramps?",
+                "Heat cramp first aid"
+            ],
+            "responses": [
+                "Heat cramps are painful muscle contractions caused by excessive heat and sweating.",
+                "Move to a cooler place, hydrate with water or a sports drink, and gently stretch and massage the affected muscles.",
+                "Seek medical help if cramps last longer than an hour or if there are signs of heat exhaustion or heat stroke."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Poison Ingestion",
+            "patterns": [
+                "What to do if someone ingests poison?",
+                "Poison ingestion first aid",
+                "Dealing with accidental poisoning"
+            ],
+            "responses": [
+                "Call poison control or emergency services immediately.",
+                "Do not induce vomiting unless instructed by a medical professional.",
+                "Provide as much information as possible about the ingested substance."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Stroke",
+            "patterns": [
+                "How to recognize a stroke?",
+                "What to do if someone is having a stroke?",
+                "Stroke first aid"
+            ],
+            "responses": [
+                "Recognize stroke symptoms: Face drooping, arm weakness, speech difficulty; time to call 112.",
+                "Keep the person calm and comfortable while awaiting medical help.",
+                "Do not give food, drink, or medications unless advised by medical professionals."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Heart Attack",
+            "patterns": [
+                "How to recognize a heart attack?",
+                "What to do if someone is having a heart attack?",
+                "Heart attack first aid"
+            ],
+            "responses": [
+                "Recognize heart attack symptoms: chest pain, shortness of breath, nausea, and lightheadedness.",
+                "Call 112 immediately and keep the person calm and seated.",
+                "Administer aspirin if available and if not contraindicated."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Animal Bites",
+            "patterns": [
+                "How to treat a dog bite?",
+                "First aid for a cat scratch",
+                "Dealing with snake bites",
+                "What should I do if I'm bitten by a wild animal?",
+                "Handling insect bites and stings"
+            ],
+        "responses": [
+                "For a dog bite, wash the wound with soap and water, apply an antibiotic ointment, and seek medical attention if it's deep or shows signs of infection.",
+                "Clean a cat scratch with soap and water, apply an antiseptic, and watch for signs of infection. Seek medical attention if necessary.",
+                "If bitten by a snake, keep the bitten area immobilized, keep it at or below heart level, and seek immediate medical attention.",
+                "If bitten by a wild animal, wash the wound thoroughly and seek medical attention, as rabies risk may be present.",
+                "Treat insect bites and stings with cold compresses, antihistamines, and over-the-counter pain relievers. Seek medical help for severe reactions."
+            ],
+        "context_set": ""
+        },
+     	{
+            "tag": "CPR",
+            "patterns": [
+                "How to perform CPR?",
+                "Cardiopulmonary resuscitation",
+                "CPR steps"
+            ],
+            "responses": [
+                "Check for responsiveness and call 112.",
+                "Start chest compressions at a rate of 100-120 compressions per minute.",
+                "If trained, give rescue breaths as well. Continue until help arrives."
+            ],
+                "context_set": ""
+        },
+        {
+            "tag": "Fire Safety",
+            "patterns": [
+                "How to stay safe in a fire?",
+                "Fire evacuation plan",
+                "What to do in a house fire?"
+            ],
+            "responses": [
+                "Install smoke alarms in your home and test them regularly.",
+                "Create a fire escape plan with your family and practice it.",
+                "If there's a fire, stay low, cover your nose and mouth, and exit the building. Don't use elevators."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Drowning",
+            "patterns": [
+                "What to do if someone is drowning?",
+                "Water rescue",
+                "Drowning first aid"
+            ],
+            "responses": [
+                "Call 101 immediately if someone is drowning.",
+                "If it's safe, reach or throw a flotation device to the person in the water.",
+                "Do not enter the water yourself unless you're trained in water rescue."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Car Accident",
+            "patterns": [
+                "What to do after a car accident?",
+                "Car crash first steps",
+                "Accident reporting"
+            ],
+            "responses": [
+                "Check for injuries and call 112 if necessary.",
+                "Exchange information with other drivers involved.",
+                "Document the scene with photos and contact your insurance company."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Earthquake Safety",
+            "patterns": [
+                "How to stay safe in an earthquake?",
+                "Earthquake preparedness",
+                "Earthquake drills"
+            ],
+            "responses": [
+                "Drop, cover, and hold on during an earthquake.",
+                "Create an emergency kit with food, water, and supplies.",
+                "Participate in earthquake drills to practice safety procedures."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Home Security",
+            "patterns": [
+                "How to improve home security?",
+                "Burglary prevention",
+                "Home safety tips"
+            ],
+            "responses": [
+                "Install deadbolt locks and secure windows.",
+                "Use timers for lights and consider a security system.",
+                "Don't advertise vacations on social media."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Weather Preparedness",
+            "patterns": [
+                "How to prepare for severe weather?",
+                "Weather emergency plan",
+                "Tornado/hurricane/flash flood safety"
+            ],
+            "responses": [
+                "Stay informed with weather alerts and have an emergency plan.",
+                "Seek shelter in a secure location during severe weather.",
+                "Prepare an emergency kit with essential supplies."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Hypertension",
+            "patterns": [
+                "How to manage high blood pressure?",
+                "Hypertension prevention",
+                "Dealing with hypertension"
+            ],
+            "responses": [
+                "Monitor your blood pressure regularly and follow your doctor's recommendations.",
+                "Adopt a healthy diet low in sodium and high in fruits and vegetables.",
+                "Engage in regular physical activity and manage stress."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "AED",
+            "patterns": [
+                "What is an automated external defibrillator (AED)?",
+                "Using an AED",
+                "AED in first aid"
+            ],
+            "responses": [
+                "An AED is a portable device that delivers an electric shock to restart the heart's normal rhythm during sudden cardiac arrest.",
+                "Follow the visual and voice prompts of the AED for proper use.",
+                "Use AED in conjunction with CPR for the best chance of survival."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Fainting",
+            "patterns": [
+                "What to do if someone faints?",
+                "Fainting first aid",
+                "Dealing with syncope"
+            ],
+            "responses": [
+                "Lay the person flat on their back and elevate their legs if possible.",
+                "Loosen tight clothing and ensure good ventilation.",
+                "If they don't regain consciousness within a minute, call for medical help."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Achilles Tendon Rupture",
+            "patterns": [
+                "How to recognize an Achilles tendon rupture?",
+                "Achilles tendon injury",
+                "First aid for Achilles tendon rupture"
+            ],
+            "responses": [
+                "Look for symptoms like sudden pain and difficulty walking.",
+                "Immobilize the leg using a splint or bandage and keep it elevated.",
+                "Seek immediate medical attention for proper diagnosis and treatment."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Choking Adult",
+            "patterns": [
+                "How to help a choking adult?",
+                "Adult choking first aid",
+                "What to do if someone is choking?"
+            ],
+            "responses": [
+                "Perform the Heimlich maneuver (abdominal thrusts) until the object is dislodged.",
+                "Call 112 if the person can't cough, speak, or breathe.",
+                "Continue efforts until professional help arrives."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Concussion in Sports",
+            "patterns": [
+                "How to recognize a concussion in sports?",
+                "Sports-related concussion",
+                "Concussion management for athletes"
+            ],
+            "responses": [
+                "Be alert for signs like headache, dizziness, confusion, and sensitivity to light or noise.",
+                "Remove the athlete from play and have them evaluated by a healthcare professional.",
+                "Follow the recommended return-to-play protocol to ensure full recovery."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Spider Bites",
+            "patterns": [
+                "How to treat spider bites?",
+                "First aid for spider bites",
+                "Dealing with venomous spider bites"
+            ],
+            "responses": [
+                "Wash the bite area with soap and water.",
+                "Apply a clean cloth with ice or a cold pack to reduce pain and swelling.",
+                "Identify the spider if possible to help with medical treatment decisions."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Tick Bites",
+            "patterns": [
+                "What to do if you're bitten by a tick?",
+                "Tick bite first aid",
+                "Lyme disease prevention"
+            ],
+            "responses": [
+                "Use fine-tipped tweezers to grasp the tick as close to the skin's surface as possible.",
+                "Pull upward with steady, even pressure to remove the tick.",
+                "Clean the bite area and your hands with rubbing alcohol or soap and water."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Hypoglycemia",
+            "patterns": [
+                "How to recognize hypoglycemia?",
+                "Hypoglycemia symptoms",
+                "Dealing with low blood sugar"
+            ],
+            "responses": [
+                "Watch for symptoms like shakiness, sweating, confusion, and irritability.",
+                "Offer the person a source of fast-acting carbohydrates, like juice or glucose tablets.",
+                "If they don't improve, seek medical assistance."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Snake Bites",
+            "patterns": [
+                "What to do if bitten by a snake?",
+                "Snake bite first aid",
+                "Dealing with venomous snake bites"
+            ],
+            "responses": [
+                "Keep the bitten limb immobilized and at or slightly below heart level.",
+                "Remove tight clothing or jewelry near the bite site.",
+                "Identify the snake if possible to assist with medical treatment."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Puncture Wounds",
+            "patterns": [
+                "How to care for puncture wounds?",
+                "First aid for puncture wounds",
+                "Dealing with injuries from sharp objects"
+            ],
+            "responses": [
+                "Clean the wound gently with soap and water.",
+                "Apply an antibiotic ointment and cover with a sterile dressing.",
+                "Monitor for signs of infection and seek medical attention if necessary."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Food Poisoning",
+            "patterns": [
+                "What to do if you have food poisoning?",
+                "Food poisoning first aid",
+                "Dealing with foodborne illnesses"
+            ],
+            "responses": [
+                "Stay hydrated with clear fluids like water and oral rehydration solutions.",
+                "Rest and avoid solid foods until symptoms improve.",
+                "Seek medical attention if symptoms are severe or persistent."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Hernia",
+            "patterns": [
+                "How to recognize a hernia?",
+                "Hernia symptoms",
+                "First aid for suspected hernia"
+            ],
+            "responses": [
+                "Look for symptoms like a bulge in the abdomen, pain, and discomfort.",
+                "Avoid putting pressure on the area, and keep it supported with a bandage or cloth.",
+                "Consult a healthcare professional for proper diagnosis and treatment."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Sunburn",
+            "patterns": [
+                "How to treat sunburn?",
+                "Sunburn first aid",
+                "Dealing with sun exposure"
+            ],
+            "responses": [
+                "Cool the affected skin with a cold compress and moisturize with aloe vera.",
+                "Stay hydrated and avoid further sun exposure.",
+                "Seek medical attention for severe sunburn with blisters or fever."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Asthma Management",
+            "patterns": [
+                "How to manage asthma symptoms?",
+                "Asthma care",
+                "Dealing with asthma attacks"
+            ],
+            "responses": [
+                "Follow your asthma action plan provided by your healthcare provider.",
+                "Use prescribed inhalers and medications as directed.",
+                "Seek immediate medical help if experiencing a severe asthma attack."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Menstrual Cramps",
+            "patterns": [
+                "How to relieve menstrual cramps?",
+                "Menstrual cramp remedies",
+                "Dealing with period pain"
+            ],
+            "responses": [
+                "Apply a heating pad or hot water bottle to your lower abdomen for pain relief.",
+                "Take over-the-counter pain relievers like ibuprofen or naproxen.",
+                "Practice relaxation techniques like deep breathing or yoga to reduce cramp discomfort."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Heavy Menstrual Bleeding",
+            "patterns": [
+                "What to do for heavy menstrual bleeding?",
+                "Heavy period first aid",
+                "Managing heavy menstrual flow"
+            ],
+            "responses": [
+                "Use a menstrual cup or tampon with a higher absorbency.",
+                "Change your menstrual product regularly to prevent leaks and discomfort.",
+                "Consult a healthcare provider if heavy bleeding persists or if you develop other concerning symptoms."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Irregular Periods",
+            "patterns": [
+                "How to manage irregular periods?",
+                "Dealing with unpredictable menstrual cycles",
+                "Irregular menstruation advice"
+            ],
+            "responses": [
+                "Keep track of your menstrual cycle and any irregularities using a calendar or app.",
+                "Discuss irregular periods with a healthcare provider to identify potential underlying causes.",
+                "Consider lifestyle changes such as stress reduction and maintaining a healthy weight."
+            ],
+            "context_set": ""
+        }
+        
+
+    ]
+}
